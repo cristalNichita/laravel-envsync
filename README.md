@@ -3,9 +3,9 @@
 [![Packagist Version](https://img.shields.io/packagist/v/fragly/laravel-envsync.svg?color=brightgreen)](https://packagist.org/packages/fragly/laravel-envsync)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Laravel](https://img.shields.io/badge/Laravel-10%2B-red.svg)](https://laravel.com)
-[![Downloads](https://img.shields.io/packagist/dt/fragly/laravel-security-tools.svg?style=for-the-badge&color=brightgreen)](https://packagist.org/packages/fragly/laravel-envsync)
-[![License](https://img.shields.io/github/license/cristalNichita/laravel-envsync.svg?style=for-the-badge)](https://github.com/cristalNichita/laravel-envsync/blob/main/LICENSE)
-[![Sponsor](https://img.shields.io/badge/Sponsor-Patreon-ff424d?logo=patreon&style=for-the-badge)](https://www.patreon.com/c/FraglyDev)
+[![Downloads](https://img.shields.io/packagist/dt/fragly/laravel-security-tools.svg?color=brightgreen)](https://packagist.org/packages/fragly/laravel-envsync)
+[![License](https://img.shields.io/github/license/cristalNichita/laravel-envsync.svg)](https://github.com/cristalNichita/laravel-envsync/blob/main/LICENSE)
+[![Sponsor](https://img.shields.io/badge/Sponsor-Patreon-ff424d?logo=patreon)](https://www.patreon.com/c/FraglyDev)
 
 > Compare and safely synchronize your `.env` with `.env.example`.  
 > Perfect for **CI/CD pipelines**, **team development**, and **clean environments**.
