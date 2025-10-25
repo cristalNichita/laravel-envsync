@@ -1,0 +1,38 @@
+gitignore
+# Composer
+/vendor/
+/composer.lock
+/.phpunit.result.cache
+
+# Build artifacts
+*.zip
+*.tar
+*.phar
+
+# IDE / Editors
+.idea/
+.vscode/
+nbproject/
+*.iml
+
+# OS junk
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Logs / cache
+*.log
+/.env*
+/storage/
+.cache/
+.tmp/
+
+# Tests
+/tests/temp/
+coverage/
+.phpunit.cache/
+
+# Node (if used for docs)
+node_modules/
+dist/

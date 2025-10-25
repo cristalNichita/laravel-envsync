@@ -1,0 +1,45 @@
+{
+    "name": "fragly/laravel-envsync",
+    "description": "A Laravel package that compares and syncs your .env with .env.example for safer CI/CD environments.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "laravel",
+        "env",
+        "sync",
+        "environment",
+        "devops",
+        "ci/cd",
+        "configuration"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Fragly\\LaravelEnvsync\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Fragly\\LaravelEnvsync\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "FraglyDev",
+            "email": "fraglynet@outlook.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Fragly\\LaravelEnvsync\\EnvSyncServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "php": "^8.2",
+        "illuminate/support": "^12.35",
+        "illuminate/console": "^12.35"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
