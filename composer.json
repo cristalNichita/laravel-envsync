@@ -9,8 +9,10 @@
         "sync",
         "environment",
         "devops",
-        "ci/cd",
-        "configuration"
+        "ci-cd",
+        "configuration",
+        "dotenv",
+        "config-diff"
     ],
     "autoload": {
         "psr-4": {
